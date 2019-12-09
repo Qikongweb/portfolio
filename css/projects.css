@@ -17,6 +17,9 @@
     margin-right:0;
     /* height: 200px; */
 }
+.textSub{
+    font-size: 1.1em;
+}
 /* Full stack */
 .overview{
     padding:60px 80px;
@@ -71,3 +74,35 @@
 }
 .electronTool { text-align: center;}
 .electronTool img {width: 50%;}
+
+/* php */
+.imagephp{
+    overflow: hidden;
+    position:relative;
+    width:200px;
+    height:250px;
+    padding:30px;
+
+}
+.imagephp img{
+    position:absolute;   
+    top:0;
+    left:20px;
+}
+/* design */
+.designPage{
+    overflow: hidden;
+    position:relative;
+    width:200px;
+    height:350px;
+    padding:30px;
+}
+.designPage img {
+    position:absolute;   
+    top:0;
+    left:20px;
+}
+.designFooter {
+    padding:0 !important;
+    text-align: center;
+}

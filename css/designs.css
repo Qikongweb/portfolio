@@ -301,5 +301,13 @@ footer {
 }
 
 #footerStyle{
-    padding-top:0;
+    padding-top:0 ;
+    text-align: center ;
+    position: relative;
+    top:-120px;
+}
+
+#footerResume {
+    padding-top:0 ;
+    text-align: center ;
 }

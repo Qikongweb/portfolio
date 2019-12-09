@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Claire Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/projects.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
+
 </head>
 
 <body>
@@ -43,45 +44,46 @@
 
     <div class="row whiteBG">
         <div class="col l4 m5 s12 leftTitle">
-            <h4>A full-stack App collecting pizza restaurants' data</h4>
-            <p class="textSub">This App has react CRUD methods working with express server. </p>
+            <h4>Social Feeds Website</h4>
+            <p class="textSub">This MVC website is built by PHP Laravel. </p>
         </div>
         <div class="col l8 m7 s12 electronp1">
-            <img class="materialboxed responsive-img" src="../img/projectsImage/full_stack/homepage.png" />
+            <img class="materialboxed responsive-img" src="../img/projectsImage/phpLaravel/home.png" />
         </div>
     </div>
     <div class="greenBG overview">
         <h4>About this project:</h4>
-        <p class="textAbout">This pizza restaurants' app is benifit for saving some interested data.
-            You can manage these data through create, edit, search and delete methods after
-            you login, otherwise you need to register a new account.
+        <p class="textAbout">This website is built by PHP laravel. The functionality is
+            about view tour pictures and make a comment under a post.  
+            When you register a new user, it automatically send an email to a user.
+            <br>
+            <br>
+            I give three different
+            user roles to administration which are user manager, theme manager and post
+            manager. Each user can do different tasks. The website has all bootstrap watch
+            themes which is managed by theme manager. Authenticated users can post a picuture
+            and comment a post. Guest only can visit this website.
 
-            <br>
-            <br>
-            In the techical field, I generated these json data using JSON Generator online and save it to MongoDB.
-            Server side includes CRUD API implementation and jwt JSON token verification.
-            Each API point url needs to be authenticated except getting all url. The authentication part is
-            jwt token verified which is sent with request header.
-            Front-end interface is built by reactJS. I seperated each part such as navBar, signin, register, main as a
-            component.
-            I also used react-router to redirect or link to another url. Each component can get the API data
-            through different API url. Each form also has specific validation.
+
 
         </p>
     </div>
 
     <div class="row whiteBG">
         <div class="row">
-            <div class="col s12 m4 imageElectron"><img src="../img/projectsImage/full_stack/search.png" alt=""
+            <div class="col s12 m6 imagephp"><img src="../img/projectsImage/phpLaravel/themeOptions.png" alt=""
                     class="materialboxed responsive-img"></div>
-            <div class="col s12 m4 imageElectron"><img src="../img/projectsImage/full_stack/code.png" alt=""
+            <div class="col s12 m6 imagephp"><img src="../img/projectsImage/phpLaravel/postManger.png" alt=""
                     class="materialboxed responsive-img"></div>
-            <div class="col s12 m4 imageElectron"><img src="../img/projectsImage/full_stack/edit.png" alt=""
+            <div class="col s12 m6 imagephp"><img src="../img/projectsImage/phpLaravel/user.png" alt=""
+                    class="materialboxed responsive-img"></div>
+            <div class="col s12 m6 imagephp"><img src="../img/projectsImage/phpLaravel/theme.png" alt=""
                     class="materialboxed responsive-img"></div>
 
         </div>
-
     </div>
+
+
 
     <div class="row greenBG techsheet">
         <div class="col m6 s12">
@@ -89,16 +91,14 @@
             <p class="codeTech">Code technologies I got involved with while working on this project.</p>
             <ol>
 
-                <li>ReactJS / React Router</li>
-                <li>NodeJS / Express</li>
-                <li>Json web token</li>
-                <li>MongoDB Atlas</li>
-                <li>Hapi Joi</li>
-                <li>Heroku</li>
+                <li>Laravel</li>
+                <li>Mysql</li>
+                <li>Sqlite</li>
+               
             </ol>
         </div>
-        <div class="col m6 s12 imgTech">
-            <img src="../img/mern.jpg" />
+        <div class="col m6 s12 electronTool">
+            <img class="materialboxed responsive-img" src="../img/projectsImage/phpLaravel/erd.png" />
         </div>
 
     </div>

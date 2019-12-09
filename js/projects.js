@@ -11,10 +11,10 @@ $(document).ready(function () {
     window.location.href = "projects/electron.html"
   })
   $('#web4').click(function () {
-    window.location.href = "projects/project1.html"
+    window.location.href = "projects/phplaravel.html"
   })
   $('#web5').click(function () {
-    window.location.href = "projects/project1.html"
+    window.location.href = "projects/design.html"
   })
   $('#web6').click(function () {
     window.location.href = "projects/project1.html"
