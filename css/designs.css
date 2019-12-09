@@ -1,0 +1,305 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+
+   Author:   QIKONG
+   Date:     Nov25,2019
+   
+   Filename: designs.css
+
+   This file design style used by all screen sizes
+
+*/
+
+
+/* =============================================
+	Base styles used by All Screens
+   =============================================
+*/
+
+html {
+	background-color: transparent;
+	font-size: 20px;
+	font-family: 'Raleway', Tahoma, Geneva, sans-serif;
+}
+
+body {
+	background-color: transparent;
+	/* box-shadow: 15px 0px 30px rgb(51, 51, 51),
+				-15px 0px 30px rgb(51, 51, 51);	 */
+	margin: 0px;				   
+    
+}
+
+
+/* Home page background picture and introduction*/
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* about */
+#aboutpage{
+    height: 520px;   
+    /* padding-top: 60px; */
+    text-align: center;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); 
+   
+}
+
+div.pagePart {
+    position: relative;
+    top: -140px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.titlePart {
+    padding-top: 60px;
+    color: #444649;
+    text-align: center;
+    margin:0;
+    font-size: 2.5em;  
+}
+
+div.underLine {
+    height: 20px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid #444649;
+}
+
+/* Skills */
+div.skillPart {
+    position: relative;
+    top: -140px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    background-color:#F5F5F5;
+    text-align: center;
+}
+.eachType {
+    padding:30px !important; 
+}
+
+
+div.columnSkill{
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+div.skillPart  img {
+    width: 40%;
+    margin: 30px 0;
+}
+
+.listSkills > li{
+    line-height: 1.5em;
+}
+
+.designer{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p.explaination{
+    line-height: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+div.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p.devtools{
+    line-height: 1.5em;
+    font-size: 1.4em;
+    color: #ec6f75;
+    margin-bottom: 30px;
+}
+
+div.layoutflex {
+    width: 50%;
+    padding: 20px 20px;
+}
+
+#story{
+    margin: 50px auto;
+    width: 75%;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+
+
+/* projects */
+
+.content .show{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+
+}
+
+div.myProjects{
+    width:90%;
+    margin:30px auto;
+}
+
+div.show  section.eachpicture {
+    width: 30%;
+    display: inline-flex;
+    height: 350px;
+    border-radius: 20px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  cover; 
+    margin: 30px; 
+    
+}
+section.eachpicture {
+    position: relative;
+    display: none;
+}
+/* four projects contents*/
+.web1 {
+    background-image: url("../img/projectsImage/full_stack/homepage.png");   
+}
+.web2 {
+    background-image: url("../img/projectsImage/jsapp/jsmap.png");   
+}
+.web3 {
+    background-image: url("../img/projectsImage/electron/electron.png"); 
+
+}
+.web4 {
+    background-image: url("../img/projectsImage/phpLaravel/home2.png");  
+}
+.web5 {
+    background-image: url("../img/projectsImage/webdesign/HomeDesk.jpg");   
+}
+.web6 {
+    background-image: url("../img/projectsImage/job_fair/home.png");   
+}
+
+
+
+.hoverpicture {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    border-radius: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    padding-top: 80px;
+  }
+  .learnmore {
+      border: 2px solid #E31B6D;
+      margin: 50px auto;
+      width: 40%;
+      padding: 3px;
+      cursor: pointer;
+  }
+  .learnmore:hover {
+      background-color: #E31B6D;
+      color: white;
+  }
+  
+  section.eachpicture:hover  .hoverpicture{
+    opacity: 1;
+    background-color: #f5f5f5;
+  }
+
+/* resume page*/
+div.resume {
+    background-color: #F5F5F5;
+    clear:both;
+    /* font-family: 'Raleway', Tahoma, Geneva, sans-serif; */
+    font-family: Agenda-Light, sans-serif;
+    padding-bottom: 30px;
+}
+/* timeline education*/
+
+
+.timeline > ul > li {
+    list-style-type: none;
+    position: relative;
+    width: 5px;
+    margin: 0 auto;
+    padding-top: 40px;
+    background: #22c2c8;
+  }
+   
+  .timeline > ul > li::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: inherit;
+  }
+
+  .timeline > ul > li > div {
+    position: relative;
+    top: -50px;
+    width: 400px;
+    padding: 15px;
+    /* background: #fff; */
+    /* background: #F45B69; */
+    left: 45px;
+  }
+   
+ 
+
+  #timelinLeft {
+    margin-left: calc((100% - 980px) * 0.3);
+    position: absolute;
+    top: -5px;
+    width: 200px;
+  }
+
+
+  .timeline h3 {
+      text-align: left;
+      font-size: 1.5em;
+      padding-bottom: 30px;
+      padding-left: 40px;
+      padding-top: 30px;
+      color: #E31B6D;
+  }
+  .timeline h6 {
+      line-height: 2em;
+  }
+
+
+/* footer */
+footer {
+    color: #f5f5f5;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#footerStyle{
+    padding-top:0;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Final Project
+    
+    Home Page of Claire Kong Protfolio
+    Author:  Qi Kong
+    Date:    Nov 25, 2019
+    
+    Filename: index.html
+    -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Claire Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/layout.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <style media="" data-href="style/style.css">
+        @font-face {
+            font-family: 'Raleway';
+            src: url("http://findmatthew.com/style/../fonts/Raleway-Regular.ttf");
+        }
+
+        @font-face {
+            font-family: 'Raleway-semibold';
+            src: url("http://findmatthew.com/style/../fonts/Raleway-SemiBold.ttf");
+        }
+
+        @font-face {
+            font-family: 'Raleway-bold';
+            src: url("http://findmatthew.com/style/../fonts/Raleway-Bold.ttf");
+        }
+    </style> -->
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper nav-fixed ">
+                <div class="headerPanel">
+                    <a href="" class="brand-logo white-text"><span id='logo'>Claire</span></a>
+                    <!--triggers side nav-->
+                    <a href="" class="sidenav-trigger white-text" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <!--desktop links-->
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="white-text" href="index.html">Welcome</a></li>
+                        <li><a class="white-text" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="white-text" href="resume.html">Resume</a></li>
+                        <li><a class="white-text" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--nav bar for mobile view -->
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a class="black-text" href="index.html">Welcome</a></li>
+            <li><a class="black-text" href="portfolio.html">Portfolio</a></li>
+            <li><a class="black-text" href="resume.html">Resume</a></li>
+            <li><a class="black-text" href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <div class="resume">
+        <h1 class="titlePart">Resume</h1>
+        <div class="underLine"></div>
+
+        <section class="timeline">
+            <h3>01 Education</h3>
+            <hr>
+            <ul>
+
+                <li class="in-view">
+                    <div id="timelinLeft" data-aos="fade-right">2018 - 2020<br>Diploma</div>
+                    <div data-aos="fade-left">
+                        <time>
+                            <h5>NSCC</h5>
+                        </time>
+                        <p>IT Web Development. Familiar with HTML3, CSS, XML and JavaScript.
+                            Understanding of the client/server model.
+                            Knowledge of Cisco networking devices.
+                        </p>
+                    </div>
+
+                </li>
+                <li class="in-view">
+                    <div id="timelinLeft" data-aos="fade-right">2008 - 2011<br>Master's degree</div>
+                    <div data-aos="fade-left">
+                        <time>
+                            <h5>Harbin Engineering University</h5>
+                        </time>
+                        <p>Master's degree, Electrical Engineering</p>
+                    </div>
+
+                </li>
+                <li class="in-view">
+                    <div id="timelinLeft" data-aos="fade-right">2004 - 2008<br>Bachelor's degree</div>
+                    <div data-aos="fade-left">
+                        <time>
+                            <h5>Harbin Engineering University</h5>
+                        </time>
+                        <p>Bachelor's degree, Electrical Engineering</p>
+                    </div>
+
+                </li>
+
+                <!-- more list items here -->
+            </ul>
+        </section>
+        <section class="timeline">
+            <h3>02 Experiences</h3>
+            <hr>
+            <ul>
+
+                <li class="in-view">
+                    <div id="timelinLeft" data-aos="fade-right">2016 - 2017<br>Volunteer</div>
+                    <div data-aos="fade-left">
+                        <time>
+                            <h5>Web development volunteer</h5>
+                        </time>
+
+                        <p>I joined in Wise Group orgernazation and helped them to build a website
+                            and put it in a server. I updated new contents and have a maintenance for website every week
+                        </p>
+                    </div>
+                </li>
+
+                <li class="in-view">
+                    <div id="timelinLeft" data-aos="fade-right">2011 - 2014<br>Researcher</div>
+                    <div data-aos="fade-left">
+                        <time>
+                            <h5>Signal Processing Researcher</h5>
+                        </time>
+
+                        <p>I worked in Jeju University for four years. I was involved in research project,
+                            planning, designing and processing data with Matlab and Labview. </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer class="page-footer" id="footerStyle">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Claire
+            </div>
+        </div>
+    </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

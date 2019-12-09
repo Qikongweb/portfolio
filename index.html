@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Claire Portfolio</title>
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/layout.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <!-- Dropdown Structure -->
+    <!-- <div class="navBarStyle">
+        <nav >
+            <div class="nav-wrapper headerPanel">
+                <a href="#!" class="brand-logo"><span id='logo'>Claire</span></a>
+                <ul class="right ">
+
+                    <li><a class="dropdown-trigger" href="#!" data-target="navItem">
+                            <i class="material-icons right">menu</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul id="navItem" class="dropdownPanal">
+            <li><a href="#">Welcome</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="divider" tabindex="-1"></li>
+        </ul>
+    </div> -->
+    <header>
+        <div class="navbar-fixed" id="mainPage">
+            <nav class="nav-wrapper nav-fixed ">
+                <div class="headerPanel">
+                    <a href="" class="brand-logo white-text"><span id='logo'>Claire</span></a>
+                    <!--triggers side nav-->
+                    <a href="" class="sidenav-trigger white-text" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <!--desktop links-->
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="white-text" href="index.html">Welcome</a></li>
+                        <li><a class="white-text" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="white-text" href="resume.html">Resume</a></li>
+                        <li><a class="white-text" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--nav bar for mobile view -->
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a class="black-text" href="index.html">Welcome</a></li>
+            <li><a class="black-text" href="portfolio.html">Portfolio</a></li>
+            <li><a class="black-text" href="resume.html">Resume</a></li>
+            <li><a class="black-text" href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    
+    <div id="titleBar">
+        <h2>Web Developer</h1>
+            <h4>I design and code beautifully simple things and I love what I do.</h4>
+            <img id="imageTitle" src="./img/photo.png" />
+            <div>
+                <a id="button" href="#nextPart"><i class="fa fa-angle-double-down" style="font-size:36px"></i></a>              
+            </div>
+    </div>
+    <div id="nextPart" style="margin-bottom:60px;color:white"></div>
+    <div id="aboutpage">
+            <p class="titlePart">A story about me</p>
+            <div class="underLine"></div>
+    
+            <p id="story">I'm a student studying Web Development in NSCC.
+                Well-organised person, problem solver, independent employee with high attention to detail.
+                I‘m passionate about designing and developing websites with MVC and SPA pattern.
+                Interested in the entire front-end spectrum and working on ambitious projects.
+                <br>
+                <a href="contact.html">Let's make something spicial</a>
+            </p>
+        </div>
+    
+        <div class="skillPart container">
+            <div class="row">
+                <div class=" col l4 m4 s12 eachType">
+                    <img src="img/design.png" />
+                    <p class="designer">Designer</p>
+                    <p class="explaination">I value simple content structure, clean design patterns, and thoughtful
+                        interactions.</p>
+                    <p class="devtools">Things I enjoy designing:</p>
+                    <p class="explaination">UX, UI, Web, Mobile, Apps</p>
+                    <p class="devtools">Design Tools:</p>
+                    <ul class="listSkills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Framworks</li>
+                        <li>Mockup</li>
+                        <li>PhotoShop</li>
+                        <li>Balsamiq</li>
+                    </ul>
+                </div>
+                <div class="columnSkill col l4 m4 s12 eachType">
+                    <img src="img/frontend.png" />
+                    <p class="designer">Front-end Developer</p>
+                    <p class="explaination">I like to code things with framworks, and enjoy bringing ideas to life in the
+                        browser.</p>
+                    <p class="devtools">Frameworks I used:</p>
+                    <p class="explaination">ReactJS, Bootstrap, jQuery, Electron, AngularJS, Materialize </p>
+                    <p class="devtools">Language I speak:</p>
+                    <ul class="listSkills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>ReactJS</li>
+                        <li>jQuery</li>
+                        <li>Electron</li>
+                        <li>ECMAScript 6</li>
+                        <li>Sass</li>
+                    </ul>
+                </div>
+                <div class=" col l4 m4 s12 eachType">
+                    <img src="img/backend.png" />
+                    <p class="designer">Back-end Developer</p>
+                    <p class="explaination">I did some back-end work with expressJS and Laravel PHP.</p>
+                    <p class="devtools">Tools I used:</p>
+                    <p class="explaination">Terminal, Git, Heroku, Wordpress, Centos, MySQL Workbench</p>
+                    <p class="devtools">Lauguages I speak:</p>
+                    <ul class="listSkills">
+                        <li>PHP Laravel</li>
+                        <li>ExpressJS</li>
+                        <li>NodeJS</li>
+                        <li>Mysql</li>
+                        <li>Linux command</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    
+        <!-- projects -->
+        <div class="pagePart">
+            <h1 class="titlePart">My Projects</h1>
+            <div class="underLine"></div>
+            <div class="myProjects">
+                <div class="content " id="dd">
+                    <div class="show projectpicture ">
+                        <section class="eachpicture web1 ">
+                            <section class="hoverpicture">
+                                <h4>Full-stack App collecting pizza restaurants' data </h1>
+                                    <p>Built with ReactJS, MongoDB and Node.js Express server.</p><br>
+                                    <section class="learnmore" id="web1">Learn More</section>
+                            </section>
+                        </section>
+    
+                        <section class="eachpicture web2 ">
+                            <section class="hoverpicture">
+                                <h4 class="text">Canada Airplane Map in Realtime</h1>
+                                    <span>Based on leaflet map and API data.</span>
+                                    <section class="learnmore" id="web2">Learn More</section>
+                            </section>
+                        </section>
+    
+                        <section class="eachpicture web3 ">
+                            <section class="hoverpicture">
+                                <h4 class="text">A note desktop App</h1>
+                                    <span>This app is built with Electron and sqlite3.</span>
+                                    <section class="learnmore" id="web3">Learn More</section>
+                            </section>
+                        </section>
+    
+                        <section class="eachpicture web4  ">
+                            <section class="hoverpicture">
+                                <h4 class="text">A social feed website</h1>
+                                    <span>This website is based on PHP lavravel.</span>
+                                    <section class="learnmore" id="web4">Learn More</section>
+                            </section>
+                        </section>
+    
+                        <section class="eachpicture web5  ">
+                            <section class="hoverpicture">
+                                <h4 class="text">Some websites templates I designed.</h1>
+                                    <span>This website is photoshop work.</span>
+                                    <section class="learnmore" id="web4">Learn More</section>
+                            </section>
+                        </section>
+    
+                        <section class="eachpicture web6  ">
+                            <section class="hoverpicture">
+                                <h4 class="text">Job Fair website</h1>
+                                    <span>I mainly resonpsible design form and feedbackpage.</span>
+                                    <section class="learnmore" id="web4">Learn More</section>
+                            </section>
+                        </section>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+    
+        <footer class="page-footer" id="footerStyle" style="position: relative;top:-120px">
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2019 Copyright Claire
+    
+                </div>
+            </div>
+        </footer>
+
+    <!-- <script>
+    $( window ).scroll(function() {
+        alert("scrolldown")
+    });
+    </script> -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>

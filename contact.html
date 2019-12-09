@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+
+</head>
+
+<body>
+
+
+  <header>
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper nav-fixed ">
+        <div class="headerPanel">
+          <a href="" class="brand-logo white-text"><span id='logo'>Claire</span></a>
+          <!--triggers side nav-->
+          <a href="" class="sidenav-trigger white-text" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <!--desktop links-->
+          <ul class="right hide-on-med-and-down">
+            <li><a class="white-text" href="index.html">Welcome</a></li>
+            <li><a class="white-text" href="portfolio.html">Portfolio</a></li>
+            <li><a class="white-text" href="resume.html">Resume</a></li>
+            <li><a class="white-text" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--nav bar for mobile view -->
+    <ul class="sidenav grey lighten-2" id="mobile-menu">
+      <li><a class="black-text" href="index.html">Welcome</a></li>
+      <li><a class="black-text" href="portfolio.html">Portfolio</a></li>
+      <li><a class="black-text" href="resume.html">Resume</a></li>
+      <li><a class="black-text" href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <div class="container contactPanel">
+    <div class="row">
+      <div class="leftContact col m4 s12">
+        <div class="eachPart">
+          <span class="mingzi">Claire Kong</span>
+          <p>Web Developer</p>
+        </div>
+        <div class="eachPart">Phone:<br>902-414-1875</div>
+        <div class="eachPart">Email:<br>Kongqi2011@gmail.com</div>
+        <div id="iconline"></div>
+        <div class="eachPart">
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-weixin" style="font-size:24px"></i>
+        </div>
+      </div>
+      <div class="rightContact col m8 s12">
+        <section class="contact-wrap" id="goForm">
+
+          <form class="material-form">
+            <p class="contact_title2">Contact me</p>
+            <hr class="lineStyle floating-field" />
+
+            <div class="input-block floating-field">
+              <label for="firstName">First Name</label>
+              <input value="" name="firstName" type="text" class="form-control">
+            </div>
+            <div class="input-block floating-field">
+              <label for="lastName">Last Name</label>
+              <input value="" name="lastName" type="text" class="form-control">
+            </div>
+
+            <div class="input-block floating-field ">
+              <label for="email">Email</label>
+              <input value="" name="email" type="text" class="form-control">
+            </div>
+
+            <div class="input-block floating-field textarea">
+              <label>Comments</label>
+              <textarea rows="4" class="form-control"></textarea>
+            </div>
+
+            <button class="btn square-button material-btn waves-effect waves-light">Send</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="page-footer" id="footerStyle">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2019 Copyright Claire
+      </div>
+    </div>
+  </footer>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src="./js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>

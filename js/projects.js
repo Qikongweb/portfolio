@@ -1,0 +1,23 @@
+$(document).ready(function () {
+
+
+  $('#web1').click(function () {
+    window.location.href = "projects/fullstack.html"
+  })
+  $('#web2').click(function () {
+    window.location.href = "projects/project1.html"
+  })
+  $('#web3').click(function () {
+    window.location.href = "projects/electron.html"
+  })
+  $('#web4').click(function () {
+    window.location.href = "projects/project1.html"
+  })
+  $('#web5').click(function () {
+    window.location.href = "projects/project1.html"
+  })
+  $('#web6').click(function () {
+    window.location.href = "projects/project1.html"
+  })
+});
+
