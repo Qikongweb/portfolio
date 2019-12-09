@@ -1,4 +1,4 @@
-/* Full stack */
+/* All projects */
 .greenBG {
     background-color:#459489;
     
@@ -17,6 +17,7 @@
     margin-right:0;
     /* height: 200px; */
 }
+/* Full stack */
 .overview{
     padding:60px 80px;
     text-align: center;
@@ -29,16 +30,6 @@
     font-size: 1.3em;
 }
 
-.projectImg{
-    width:150px;
-    /* height:160px; */
-    min-height: 120px;
-    max-height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-.projectImg img{
-    max-width: 100%;
-    height: auto;
-}
 .row {
     margin-bottom: 0 !important;
 }
@@ -46,11 +37,7 @@
     padding:40px 60px;
     text-align: left;;
 }
-.techsheet img {
-    margin-top: 40px;
-    width: 300px;
-    height:auto;
-}
+
 .techsheet ol li {
     list-style-type: circle;
 }
@@ -58,7 +45,29 @@
     font-size: 1.1em;
     color: #cccccc;
 }
-.imgTech{
-    width:100%;
-    text-align: center;
+.imgTech img{
+    width:60%;
+    margin: 20px auto;
 }
+
+/* electron */
+.imageElectron{
+    overflow: hidden;
+    position:relative;
+    width:200px;
+    height:200px;
+    padding:30px;
+
+}
+.imageElectron img{
+    position:absolute;   
+    top:0;
+    left:20px;
+}
+
+.electronp1 img {
+    width: 70%;
+    margin:auto;
+}
+.electronTool { text-align: center;}
+.electronTool img {width: 50%;}

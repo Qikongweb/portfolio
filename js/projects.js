@@ -19,5 +19,11 @@ $(document).ready(function () {
   $('#web6').click(function () {
     window.location.href = "projects/project1.html"
   })
+
+
+  var mb = document.querySelectorAll('.materialboxed');
+  M.Materialbox.init(mb, {
+
+  })
 });
 

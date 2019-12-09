@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Claire Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/projects.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
+
 </head>
 
 <body>
@@ -43,61 +44,59 @@
 
     <div class="row whiteBG">
         <div class="col l4 m5 s12 leftTitle">
-            <h4>A full-stack App collecting pizza restaurants' data</h4>
-            <p class="flow-text">This App has react CRUD methods working with express server. </p>
+            <h4>A note Desktop Application</h4>
+            <p class="flow-text">This App was built with electron framework and knexJS query builder. </p>
         </div>
-        <div class="col l8 m7 s12">
-            <img src="../img/projectsImage/full_stack/homepage.png" />
+        <div class="col l8 m7 s12 electronp1">
+            <img class="materialboxed responsive-img" src="../img/projectsImage/electron/electron.png" />
         </div>
     </div>
     <div class="greenBG overview">
         <h4>About this project:</h4>
-        <p class="textAbout">This pizza restaurants' app is benifit for saving some interested data.
-            You can manage these data through create, edit, search and delete methods after
-            you login, otherwise you need to register a new account.
+        <p class="textAbout">This desktop app is used to save text notes including title,
+            tags and contents. These notes can be searched by tags or texts. It has trash which is keep the notes
+            deleted and you can
+            restore it back.
 
             <br>
             <br>
-            In the techical field, I generated these json data using JSON Generator online and save it to MongoDB.
-            Server side includes CRUD API implementation and jwt JSON token verification.
-            Each API point url needs to be authenticated except getting all url. The authentication part is
-            jwt token verified which is sent with request header.
-            Front-end interface is built by reactJS. I seperated each part such as navBar, signin, register, main as a
-            component.
-            I also used react-router to redirect or link to another url. Each component can get the API data
-            through different API url. Each form also has specific validation.
+            In the techical field, This app is
+            built with electron framework and knexJS query builder. Sqlite3 is used to
+            be the database.
 
         </p>
     </div>
 
     <div class="row whiteBG">
-        <div class="col m4 s12 projectImg">
-            <img class="" src="../img/projectsImage/full_stack/search.png">
-        </div>
-        <div class="col m4 s12 projectImg">
-            <img src="../img/projectsImage/full_stack/code.png">
-        </div>
-        <div class="col m4 s12 projectImg">
-            <img src="../img/projectsImage/full_stack/edit.png">
+        <div class="row">
+            <div class="col s12 m4 imageElectron"><img src="../img/projectsImage/electron/1.png" alt=""
+                    class="materialboxed responsive-img"></div>
+            <div class="col s12 m4 imageElectron"><img src="../img/projectsImage/electron/4.png" alt=""
+                    class="materialboxed responsive-img"></div>
+            <div class="col s12 m4 imageElectron"><img src="../img/projectsImage/electron/3.png" alt=""
+                    class="materialboxed responsive-img"></div>
+
         </div>
     </div>
+
+
 
     <div class="row greenBG techsheet">
         <div class="col m6 s12">
             <h4>Technial Sheet:</h4>
             <p class="codeTech">Code technologies I got involved with while working on this project.</p>
             <ol>
-                
-                <li>ReactJS / React Router</li>
-                <li>NodeJS / Express</li>
-                <li>Json web token</li>
-                <li>MongoDB Atlas</li>
-                <li>Hapi Joi</li>
-                <li>Heroku</li>
+
+                <li>Electron Framework</li>
+                <li>Sqlite3</li>
+                <li>KnexJS</li>
+                <li>Html / CSS </li>
+                <li>JQuery</li>
+                <li>Javascript</li>
             </ol>
         </div>
-        <div class="col m6 s12 imgTech">
-            <img src="../img/mern.jpg" />
+        <div class="col m6 s12 electronTool">
+            <img src="../img/projectsImage/electron/2.png" />
         </div>
 
     </div>
