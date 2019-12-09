@@ -66,30 +66,30 @@
       <div class="rightContact col m8 s12">
         <section class="contact-wrap" id="goForm">
 
-          <form class="material-form">
+          <form class="material-form" action="https://formspree.io/meqonzyd" method="post" >
             <p class="contact_title2">Contact me</p>
             <hr class="lineStyle floating-field" />
 
             <div class="input-block floating-field">
               <label for="firstName">First Name</label>
-              <input value="" name="firstName" type="text" class="form-control">
+              <input value="" name="firstName" type="text" class="form-control" required>
             </div>
             <div class="input-block floating-field">
               <label for="lastName">Last Name</label>
-              <input value="" name="lastName" type="text" class="form-control">
+              <input value="" name="lastName" type="text" class="form-control" required>
             </div>
 
             <div class="input-block floating-field ">
               <label for="email">Email</label>
-              <input value="" name="email" type="text" class="form-control">
+              <input value="" name="email" type="text" class="form-control" required>
             </div>
 
             <div class="input-block floating-field textarea">
               <label>Comments</label>
-              <textarea rows="4" class="form-control"></textarea>
+              <textarea rows="4" name="comments" class="form-control"></textarea>
             </div>
 
-            <button class="btn square-button material-btn waves-effect waves-light">Send</button>
+            <button type="submit" class="btn square-button material-btn waves-effect waves-light">Send</button>
           </form>
         </section>
       </div>

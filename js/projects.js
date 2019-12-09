@@ -5,7 +5,7 @@ $(document).ready(function () {
     window.location.href = "projects/fullstack.html"
   })
   $('#web2').click(function () {
-    window.location.href = "projects/project1.html"
+    window.location.href = "projects/jsproject.html"
   })
   $('#web3').click(function () {
     window.location.href = "projects/electron.html"
@@ -17,7 +17,7 @@ $(document).ready(function () {
     window.location.href = "projects/design.html"
   })
   $('#web6').click(function () {
-    window.location.href = "projects/project1.html"
+    window.location.href = "projects/jobfair.html"
   })
 
 
