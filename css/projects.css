@@ -58,8 +58,9 @@
     overflow: hidden;
     position:relative;
     width:200px;
-    height:150px;
+    height:180px;
     padding:30px;
+    margin-bottom: 20px;
 }
 
 .imagefull img{
@@ -179,10 +180,11 @@
         height: 120px;
     }
     .imageJob{
-        height:150px;
+        height:100px;
+        margin-bottom: 0;
     }
     .jobTool img {
-        width:80%;
+        width:60%;
     }
     .imagephp {
         height: 120px;
@@ -194,5 +196,8 @@
     }
     .imageElectron {
         height: 200px;
+    }
+    .imageJob {
+        height: 220px;
     }
 }
