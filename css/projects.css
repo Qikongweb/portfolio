@@ -20,7 +20,6 @@
 .textSub{
     font-size: 1.1em;
 }
-/* Full stack */
 .overview{
     padding:60px 80px;
     text-align: center;
@@ -36,6 +35,7 @@
 .row {
     margin-bottom: 0 !important;
 }
+
 .techsheet{
     padding:40px 60px;
     text-align: left;;
@@ -48,17 +48,62 @@
     font-size: 1.1em;
     color: #cccccc;
 }
+
+/* Full stack */
+.fullstackImg img{
+    width: 70%;
+    margin:auto;
+}
+.imagefull{
+    overflow: hidden;
+    position:relative;
+    width:200px;
+    height:150px;
+    padding:30px;
+}
+
+.imagefull img{
+    position:absolute;   
+    top:0;
+    left:20px;
+}
+
+.imgTech {text-align: center;}
 .imgTech img{
     width:60%;
     margin: 20px auto;
 }
 
+/* jobFair */
+.imageJob{
+    overflow: hidden;
+    position:relative;
+    width:150px;
+    height:250px;
+    padding:30px;
+    margin-bottom:20px;
+}
+
+.imageJob img{
+    position:absolute;   
+    top:0;
+    left:20px;
+}
+.jobTool {
+    text-align: center;
+    margin-top:30px;
+}
+
+.jobTool img{
+    width: 45%;
+    
+}
 /* electron */
 .imageElectron{
     overflow: hidden;
     position:relative;
     width:200px;
-    height:200px;
+    height:250px;
     padding:30px;
 
 }
@@ -72,22 +117,35 @@
     width: 70%;
     margin:auto;
 }
-.electronTool { text-align: center;}
-.electronTool img {width: 50%;}
+.electronTool { 
+    text-align: center;
+    margin-top:30px;
+}
+.electronTool img {
+    width: 45%;   
+}
 
 /* php */
+.phpMain img{
+    width: 80%;
+    margin:auto;
+}
 .imagephp{
     overflow: hidden;
     position:relative;
     width:200px;
     height:250px;
     padding:30px;
-
+    margin-bottom:30px;
 }
 .imagephp img{
     position:absolute;   
     top:0;
     left:20px;
+}
+.bottomImgphp img{
+    width:70%;
+    margin:auto;
 }
 /* design */
 .designPage{
@@ -105,4 +163,36 @@
 .designFooter {
     padding:0 !important;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .imageElectron {
+        height:200px;
+        margin-bottom:30px;
+    }
+    .electronTool img {
+        width: 50%;
+    }
+
+    .imageElectron {
+        height: 120px;
+    }
+    .imageJob{
+        height:150px;
+    }
+    .jobTool img {
+        width:80%;
+    }
+    .imagephp {
+        height: 120px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .electronTool img {
+        width: 60%;
+    }
+    .imageElectron {
+        height: 200px;
+    }
 }

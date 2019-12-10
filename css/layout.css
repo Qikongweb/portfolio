@@ -71,6 +71,7 @@
         background-color: #252525;
         
     } */
+    .electronTool img {width: 80%;}
  
     
 }
@@ -99,7 +100,7 @@
 
 @media screen and (max-width: 600px) {
     #aboutpage{
-        height: 650px;
+        height: 600px;
     }
 
     div.pagePart {
@@ -123,7 +124,7 @@
     button {
         width: 48%;
     }
-
+    
    
     
   }

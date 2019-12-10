@@ -56,11 +56,12 @@ floatingField.blur(function () {
 
 
 $(document).ready(function () {
+  // navbar
   $('.sidenav').sidenav({
     // closeOnClick: true
   });
 
-
+// homepage arrow
   $("#button").click(function (e) {
     e.preventDefault();
 
@@ -70,5 +71,10 @@ $(document).ready(function () {
       scrollTop: position
     }, 1000);
   });
+
+  // contact icon link
+  $('#linkin').click(function(){
+    window.location.href = "http://linkedin.com/in/claire-qi-kong-454645174";
+  })
 });
 
