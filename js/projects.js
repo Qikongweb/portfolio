@@ -19,6 +19,12 @@ $(document).ready(function () {
   $('#web6').click(function () {
     window.location.href = "projects/jobfair.html"
   })
+  $('#web7').click(function () {
+    window.location.href = "projects/dvbank.html"
+  })
+  $('#web8').click(function () {
+    window.location.href = "projects/aspnet.html"
+  })
 
 
   var mb = document.querySelectorAll('.materialboxed');
